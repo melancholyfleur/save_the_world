@@ -5,3 +5,6 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+Passion.create(name: 'Climate Change', summary: 'A rise in the overall temperature of the globe and subsequent climate extremes.')
+Passion.create(name: 'Pollinator Decline', summary: 'Reduction of insect and other animal pollinators.')
+Passion.create(name: 'Diversity in Tech', summary: 'The lack of representation of certain demographics in technology-related fields.')

@@ -1,0 +1,21 @@
+h1 
+  | Using technology to 
+  p Save The World
+p 
+  | Are you passionate about solving 
+  span big problems? 
+  | Do you feel most driven when the way you're making a living is affecting something bigger than yourself?
+
+p that's wonderful
+p let's do something about that
+
+p What's the problem you want to solve?
+
+div.issues_list
+  ul
+    - @passions.each do |passion|
+      li= link_to passion.name, passion_path(passion.id)
+
+div.feedback
+p is our list missing something?
+= link_to 'let us know', ''
