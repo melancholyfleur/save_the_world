@@ -4,6 +4,6 @@ This project is an attempt to aggregate useful data for a handful of useful,
 large-scale issues that one might want to help solve with technology.
 
  * Ruby version: 2.2.4-p290
- * So far, just SQLite3
+ * Postgres 9.5
  * I am up for suggestions on how to make this more useful
 
