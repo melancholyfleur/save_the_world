@@ -1,0 +1,9 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+bee_resource:
+  name: Colony Collapse Disorder
+  url: https://en.wikipedia.org/wiki/Colony_collapse_disorder
+
+pretend_resource:
+  name: Pretend Resource
+  url: http://en.wikipedia.org/wiki/pretend

@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+bee_project:
+  name: The Honey Bee Initiative
+  url: http://bees.gmu.edu/
+  summary: George Mason University studies local hives to study the decline of bees in Virginia.
+
+pretend_project:
+  name: Pretend Project
+  url: http://example.com/pretending
+  summary: "A project about pretending (read: acting)."
