@@ -1,7 +1,7 @@
 development:
   adapter: postgresql
   encoding: utf8
-  database: postgres
+  database: save_the_world_development
   pool: 5
   username: maryloulenhart
   password:
@@ -9,7 +9,7 @@ development:
 test: 
   adapter: postgresql
   encoding: utf8
-  database: postgres
+  database: save_the_world_test
   pool: 5
   username: maryloulenhart
   password:
