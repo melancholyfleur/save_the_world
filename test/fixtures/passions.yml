@@ -1,0 +1,9 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+climate_change:
+  name: Climate Change
+  summary: A rise in the overall temperature of the globe and subsequent climate extremes.
+
+colony_collapse:
+  name: Colony Collapse Disorder
+  summary: The majority of worker bees in a colony disappear inexplicably.

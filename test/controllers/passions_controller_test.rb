@@ -6,4 +6,8 @@ class PassionsControllerTest < ActionController::TestCase
     assert_response :success
   end
 
+  test "should get show" do
+    get :show, id: passions(:climate_change).id
+    assert_response :success
+  end
 end

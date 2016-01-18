@@ -1,0 +1,13 @@
+h1= @passion.name
+
+h3= @passion.summary
+
+.passion-resources
+p Learn more:
+- @passion.passion_resources.each do |resource|
+  = link_to resource.name, resource.url
+
+.passion-projects
+p Get involved:
+- @passion.projects.each do |project|
+  = link_to project.name, project.url
