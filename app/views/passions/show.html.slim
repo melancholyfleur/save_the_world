@@ -1,13 +1,24 @@
-h1= @passion.name
+body
+  header class="#{@passion.name.parameterize}"
+    h1= @passion.name
 
-h3= @passion.summary
+    h3= @passion.summary
 
-.passion-resources
-p Learn more:
-- @passion.passion_resources.each do |resource|
-  = link_to resource.name, resource.url
+  section.passion-resources
+    p Learn more:
+    ul
+      - @passion.passion_resources.each do |resource|
+        li= link_to resource.name, resource.url
 
-.passion-projects
-p Get involved:
-- @passion.projects.each do |project|
-  = link_to project.name, project.url
+  section.passion-projects
+    p Get involved:
+    - if @passion.projects.count == 0
+      .feedback
+        p We don't know of any projects in the works right now. Do you? #{link_to 'let us know', ''}
+    - else
+      ul
+        - @passion.projects.each do |project|
+          li= link_to project.name, project.url
+
+  section.navigation
+    =link_to 'Research Another Passion', root_path(anchor: 'problem-solving')

@@ -1,0 +1,57 @@
+body {
+  background-color: black;
+}
+
+header.climate-change {
+  min-height: 200px;
+  margin-top: 0;
+  background: asset-url('climate-change.jpg');
+  h1 {
+    color: #086A87;
+  }
+  h3 {
+    color: black;
+  }
+}
+
+header.colony-collapse-disorder {
+  min-height: 200px;
+  margin-top: 0;
+  background: asset-url('bees.jpg');
+}
+
+header.diversity-in-tech {
+  min-height: 200px;
+  margin-top: 0;
+  background: linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet);
+}
+
+section.passion-resources {
+  p {
+    text-align: left;
+    margin-left: 35%;
+  }
+}
+
+section.passion-projects {
+  p {
+    text-align: left;
+    margin-left: 35%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  background-color: #086A87;
+  .feedback {
+    font-size: .8em;
+  }
+}
+
+section.navigation {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.navigation {
+  font-family: 'Cookie', cursive;
+}
+

@@ -1,0 +1,92 @@
+body {
+  //background: asset-url('halfdeerf.jpg');
+  //background-repeat: no-repeat;
+  //background-size: contain;
+  //background-position: center;
+  margin: 0;
+  background-color: black;
+  color: white;
+  font-family: 'Slabo 27px', serif;
+  font-size: 2em;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: #D8D8D8;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  margin-bottom: 0;
+  font-family: 'Cookie', cursive;
+  p {
+    margin-top: 3%;
+    margin-bottom: 0;
+    font-size: 3em;
+  }
+}
+
+section.world {
+  margin: 0 auto;
+  padding: 0;
+}
+
+section.premise {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #086A87;
+}
+
+.tagline {
+  width: 80%;
+  margin-left: 10%;
+  p span {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+}
+
+.wonderful {
+  font-size: 2em;
+  font-family: 'Cookie', cursive;
+}
+
+ul {
+  font-size: 1.5em;
+  font-family: 'Cookie', cursive;
+  list-style: none;
+  text-align: left;
+  margin-left: 35%;
+  li { 
+    a {
+      text-decoration: none;
+    }
+    a:link {
+      color: #819FF7;
+    }
+    a:visited {
+      color: #58FA58;
+    }
+    a:hover {
+      color: #A9A9F5;
+    }
+  }
+}
+
+.feedback {
+  p, a {
+    font-size: .9em;
+  }
+  p {
+    margin-bottom: 0;
+  }
+}
+
