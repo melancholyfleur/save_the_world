@@ -14,7 +14,7 @@ body
     p Get involved:
     - if @passion.projects.count == 0
       .feedback
-        p We don't know of any projects in the works right now. Do you? #{link_to 'let us know', ''}
+        p We don't know of any projects in the works right now. Do you? #{link_to 'let us know', new_feedback_path}
     - else
       ul
         - @passion.projects.each do |project|

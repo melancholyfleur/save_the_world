@@ -1,3 +1,7 @@
+- if flash[:notice]
+  .notice
+    = flash[:notice]
+
 section.world
   h1 
     | Using technology to 
@@ -29,4 +33,4 @@ section.problem-solving#problem-solving
 
   .feedback
     p is our list missing something?
-    = link_to 'let us know', ''
+    = link_to 'let us know', new_feedback_path

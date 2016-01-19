@@ -8,6 +8,8 @@ Rails.application.routes.draw do
 
   resources :passions, only: [:index, :show]
 
+  resources :feedbacks, only: [:new, :create]
+
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 
