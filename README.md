@@ -1,4 +1,4 @@
-== README
+## Save The World
 
 This project is an attempt to aggregate useful data for a handful of useful,
 large-scale issues that one might want to help solve with technology.
